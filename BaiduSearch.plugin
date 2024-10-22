@@ -10,3 +10,8 @@
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Baidu.png
 #!date = 2023-09-12 20:30:28
 
+[Script]
+http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9}) script-path = https://kelee.one/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js, requires-body = true, tag = 移除百度搜索首页信息流广告
+
+[MitM]
+hostname = m.baidu.com, www.baidu.com
