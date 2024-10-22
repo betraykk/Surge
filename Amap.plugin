@@ -1,13 +1,13 @@
 #!name = 高德地图去广告
-#!desc = 过滤高德地图开屏广告、各页面推广，精简我的页面。
+#!desc = 过滤高德地图广告
 #!openUrl = https://apps.apple.com/app/id461703208
-#!author = RuCu6[https://github.com/RuCu6], kokoryh[https://github.com/kokoryh]
-#!tag = 去广告
-#!system = ios
+#!author = RuCu6 kokoryh
+#!tag = 去广告, RuCu6, kokoryh
+#!system = iOS
 #!system_version = 
 #!loon_version = 3.2.1(372)
-#!homepage = https://gitlab.com/lodepuly/ProxyResource-/blob/main/README.md
-#!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Amap.png
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Amap.png
 #!date = 2024-10-15 10:15:26
 
 [Rule]
