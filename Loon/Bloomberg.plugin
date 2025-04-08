@@ -1,0 +1,9 @@
+#!name=彭博社会员
+#!desc=彭博社会员解锁
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1006.png
+
+[Script]
+http-response ^https:\/\/mobapi\.bloomberg\.com\/wssmobile\/v1\/user\/subscription script-path=https://raw.githubusercontent.com/leey668/pyer/main/bloomberg.js, requires-body=true, timeout=60, tag=bloomberg
+
+[MITM]
+hostname = mobapi.bloomberg.com
