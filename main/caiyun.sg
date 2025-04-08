@@ -1,4 +1,4 @@
-#!name=DNS 脚本
+#!name=DNS 脚本1
 #!desc=纯脚本实现 DNS 查询, 支持 EDNS Client Subnet (ECS)
 #!category=xream
 #!arguments=type:"A,AAAA",doh:"https://8.8.4.4/dns-query",ttl:"60",timeout:"2",edns:"114.114.114.114",fallback:1,log:0,policy:0
