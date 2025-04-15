@@ -8,7 +8,7 @@
 #!loon_version = 3.2.1(372)
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
-#!date = 2024-06-11 21:59:22
+#!date = 2025-04-11 21:59:25
 
 [Rule]
 AND, ((DOMAIN-SUFFIX, googlevideo.com),  (PROTOCOL, QUIC)), REJECT
